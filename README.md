@@ -1,18 +1,18 @@
-# The Reading List in AngularJS
+Reading List Application using Angular JS
 
-## Installation
+Installation instructions:
 
-This project was generated using [Yeoman](http://yeoman.io)! To run the app, clone this repository and run the following:
+To run the app, clone this repository and run the following:
 
-1. `npm install` (go get a drink)
-2. `bower install` (blow your nose)
-3. `grunt serve`
+1. "npm install"
+2. "bower install"
+3. "grunt serve"
 
-You should now have a window open in your default browser pointing to `http://localhost:9000`. Changes that you make should automatically trigger a reload... Go ahead, try it!
+Broser will be opened and run http://localhost:3000. If not enter http://localhost:3000 in the browser.
 
-## Specifications
+App usage instructions:
 
-### When I have read or want read a Book, I can add it to a Reading List so that I won't forget about it.
+### When you have read or want read a Book, I can add it to a Reading List so that I won't forget about it.
 
 A Book should have:
 
@@ -23,7 +23,7 @@ A Book should have:
 * **rating** - 1 to 5, like stars (or tomatoes)
 * **genre** - a name like "fiction" or "non-fiction"
 
-### I can view a list of all the Books on my Reading List so that I can see which ones I've added.
+### You can view a list of all the Books on my Reading List so that you can see which ones you have added.
 
 * For each Book, show:
     * the cover image (from Amazon.com)
@@ -41,11 +41,11 @@ A Book should have:
 * The URL for a book on Amazon.com can be generated, given the AIN:
     http://www.amazon.com/gp/product/{{book.ain}}
 
-### I can edit a Book on my Reading List so that I can add or update the information about it.
+### You can edit a Book on my Reading List so that you can add or update the information about it.
 
 * Essentially opens the "New Review" form for the existing Book
 
-### I can mark a Book as "READ" or "READING" so that I can remind myself which ones I've already read.
+### You can mark a Book as "READ" or "READING" so that you can remind myself which ones you have already read.
 
 Add **currently** to Book, a state indicator of "UNREAD", "READ" or "READING"
 
@@ -54,7 +54,7 @@ Reminders:
 * Don't forget to update the "Edit Book" form!
 * Maybe provide an easier way to update than editing it?
 
-### I can _sort_ the list of Books so that I can see which ones to read next.
+### You can _sort_ the list of Books so that you can see which ones to read next.
 
 The list of Books can be _sorted_ by:
 
@@ -62,11 +62,10 @@ The list of Books can be _sorted_ by:
 * alpha by title
 * rating e.g. higest first, unrated first
 
-## I can _filter_ the list of Books so that I can
+## You can _filter_ the list of Books so that you can
 
 The list of Books can be _filtered_ by:
 
 * state e.g. "only UNREAD" or "not READ yet"
 * reviewed e.g. "review" is not empty
 * "good reads" e.g. ratings greater than "3"
-
