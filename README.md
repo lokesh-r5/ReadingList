@@ -12,7 +12,7 @@ Broser will be opened and run http://localhost:3000. If not enter http://localho
 
 App usage instructions:
 
-### When you have read or want read a Book, I can add it to a Reading List so that I won't forget about it.
+### When you have read or want read a Book, you can add it to a Reading List so that you won't forget about it.
 
 A Book should have:
 
